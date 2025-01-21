@@ -3,7 +3,7 @@ This repo is a template for developing your ActiveMQ external plugin.
 
 Its main purpose is to define the bare minimum dependencies and steps to add it to your ActiveMQ installation.
 
-This simple plugin intercept text messages and print out the number of character to stdout.
+This simple plugin intercepts text messages sent and print out the number of characters to stdout.
 
 
 ### Step 1. Build the plugin jar
