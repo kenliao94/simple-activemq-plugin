@@ -16,7 +16,7 @@ mvn package
 - Download ActiveMQ 6.x [here](https://activemq.apache.org/components/classic/download/)
 - Unzip the tarball or zip file you just downloaded. For example, `unzip ~/Downloads/apache-activemq-6.1.5-bin.zip`
 - Copy the built jar in the `lib` sub-folder of the installation. For example`cp ./target/activemq-plugin-1.0-SNAPSHOT.jar ~/Downloads/apache-activemq-6.1.5/lib/`
-- Configure the plugin in the "<plugins>" tag
+- Add the plugin to activemq.xml
 
 ### Step 3. Start the ActiveMQ broker
 ```shell
